@@ -1,0 +1,190 @@
+@import './../helpers/variables.scss';
+
+//
+
+%FontDosis {
+    font-family: $logoFont;
+}
+
+%FontPoppins {
+    font-family: $poppinsFont;
+}
+
+%FontLobster {
+    font-family: $smallTitlesFont;
+}
+
+%Uppercase {
+    text-transform: uppercase;
+}
+
+%Button_font {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+//
+
+#logo {
+    @extend %FontDosis;
+    font-size: 40px;
+    color: $graylogo;
+}
+
+nav a {
+    text-decoration: $reset;
+    color: $white;
+    @extend %FontPoppins;
+    @extend %Uppercase;
+}
+
+h1 {
+    font-size: 50px;
+    @extend %FontPoppins;
+    @extend %Uppercase;
+    color: $gray;
+    font-weight: 400;
+}
+
+h1 span {
+    font-size: 74px;
+    font-weight: 700;
+}
+
+#header_bottom p {
+    @extend %Uppercase;
+    @extend %FontPoppins;
+    color: $bluegray;
+    font-size: 16px;
+}
+
+h2 {
+    @extend %FontPoppins;
+    color: $gray;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.descript {
+    @extend %FontLobster;
+    color: $violet;
+    font-size: 20px;
+}
+
+#biography p:not(.descript) {
+    color: $bluegray;
+    @extend %FontPoppins;
+    font-weight: 300;
+}
+
+#services p{
+    font-family: 'Lato', sans-serif;
+}
+
+#services_title p{
+    @extend %Uppercase;
+    font-size: 25px;
+    color: $violet;
+}
+
+h3 {
+    @extend %FontPoppins;
+    @extend %Uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    color: $gray;
+}
+
+#offers_display p {
+    font-size: 15px;
+    color: $gray;
+}
+
+h4 {
+    @extend %FontLobster;
+    color: $gray;
+    font-size: 28px;
+}
+
+.pricing_card p {
+    color: $bluegray;
+    @extend %FontPoppins;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.price {
+    color: $darkblue;
+    font-size: 30px;
+    @extend %FontPoppins;
+    font-weight: 600;
+}
+
+#logo_font {
+    @extend %FontDosis;
+    font-size: 50px;
+    color: $white;
+}
+
+#stay_p {
+    @extend %FontPoppins;
+    font-size: 31px;
+    font-weight: 500;
+    color: $white;
+}
+
+.button_gradient {
+    @extend %FontPoppins; 
+    font-size: 12px;
+    font-weight: 600;
+}
+
+header .button_gradient {
+    @extend %Button_font;
+}
+
+#pricing input[type=button], #newsletter input[type=button]{
+    @extend %Button_font;
+    @extend %FontPoppins;
+}
+
+#newsletter h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+#newsletter h2 span {
+    font-weight: 600;
+}
+
+input[type=text] {
+    @extend %FontPoppins;
+    font-size: 12px;
+}
+
+footer {
+    color: $white;
+}
+
+h5 {
+    color: $white;
+    @extend %FontPoppins;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+footer a {
+    text-decoration: $reset;
+    font-weight: 400;
+    font-size: 16px;
+    @extend %FontPoppins;
+    color: $white;
+}
+
+#footer_timebox {
+    font-weight: 400;
+    font-size: 16px;
+    @extend %FontPoppins;
+    color: $white;
+}
+

@@ -1,0 +1,15 @@
+{
+  "name": "rendumaquettesass",
+  "version": "1.0.0",
+  "description": "Rendu Projet Archi Front",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom Gourdy",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2"
+  }
+}

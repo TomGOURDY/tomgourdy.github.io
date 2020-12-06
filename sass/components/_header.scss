@@ -1,0 +1,72 @@
+@import './../helpers/variables.scss';
+
+
+
+#header_nav {
+    display: flex;
+    padding: 30px 200px;
+    justify-content: space-between;
+}
+
+#logo {
+
+    p {
+        margin-top: 45px;
+        margin-left: 15px;
+    }
+
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    margin-top: 40px;
+    justify-content: space-evenly;
+
+    a {
+        padding: 0 17.5px;
+    }
+}
+
+aside {
+    padding: 0 100px;
+    position: absolute;
+    #social_media_sidebar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        a {
+            padding-top: 40px;
+        }
+    }
+}
+
+#void_gradient {
+    background-image: $spangradient;
+    margin-top: 40px;
+    margin-left: 2.5px;
+    height: 30px;
+    width: 3px;
+}
+
+#header_bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 140px;
+    padding-left: 230px;
+    #headline {
+        margin-top: 80px;
+        h1 {
+            margin-bottom: 20px;
+        }
+        input[type=button] {
+            margin-top: 20px;
+        }
+    }
+}
+
+#mouse_icon {
+    margin-left: 50%;
+    position: absolute;
+    margin-top: -15px;
+}

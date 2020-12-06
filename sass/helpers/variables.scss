@@ -1,0 +1,31 @@
+// Colors
+
+$white : #fff;
+$buttongradient : linear-gradient(to right, #1A129F,#5349E7);
+$gray : #42495B;
+$darkblue : #1000FF;
+$graylogo : #484848;
+$bluegray : #7A839E;
+$violet : #7E76F9;
+$violetshadow : #E3E0FD;
+$lightparm : #ECEAFE;
+$spangradient : linear-gradient(to left, #1A129F,#5349E7);
+
+// Fonts
+
+$reset : none;
+
+$logoFont :'Dosis', sans-serif; 
+
+$poppinsFont : 'Poppins', sans-serif;
+
+$smallTitlesFont : 'Lobster', cursive;
+
+// Backgrounds
+
+$headerBg : url(./../assets/img/wave.png);
+$footerBg : url(./../assets/img/footer.png);
+$weAreBg : url(./../assets/img/background-we-are.png);
+$servicesBg : url(./../assets/img/background-service.png);
+
+// Responsive widths

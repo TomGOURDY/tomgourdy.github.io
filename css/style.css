@@ -1,0 +1,407 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer, #services, #biography, header {
+  background-repeat: no-repeat;
+}
+
+header {
+  background-image: url(./../assets/img/wave.png);
+  background-position: 100% 0%;
+}
+
+#biography {
+  background-image: url(./../assets/img/background-we-are.png);
+}
+
+#services {
+  background-image: url(./../assets/img/background-service.png);
+}
+
+#pricing {
+  background-color: #ECEAFE;
+}
+
+.pricing_card {
+  background-color: #fff;
+  border-radius: 25px;
+}
+
+.accent {
+  box-shadow: 0px 7px 5px 3px #E3E0FD;
+}
+
+footer {
+  background-image: url(./../assets/img/footer.png);
+  background-size: cover;
+}
+
+#logo_font, #logo {
+  font-family: "Dosis", sans-serif;
+}
+
+#footer_timebox, footer a, h5, input[type=text], #pricing input[type=button], #newsletter input[type=button], .button_gradient, #stay_p, .price, .pricing_card p, h3, #biography p:not(.descript), h2, #header_bottom p, h1, nav a {
+  font-family: "Poppins", sans-serif;
+}
+
+h4, .descript {
+  font-family: "Lobster", cursive;
+}
+
+h3, #services_title p, #header_bottom p, h1, nav a {
+  text-transform: uppercase;
+}
+
+#pricing input[type=button], #newsletter input[type=button], header .button_gradient {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#logo {
+  font-size: 40px;
+  color: #484848;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 {
+  font-size: 50px;
+  color: #42495B;
+  font-weight: 400;
+}
+
+h1 span {
+  font-size: 74px;
+  font-weight: 700;
+}
+
+#header_bottom p {
+  color: #7A839E;
+  font-size: 16px;
+}
+
+h2 {
+  color: #42495B;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.descript {
+  color: #7E76F9;
+  font-size: 20px;
+}
+
+#biography p:not(.descript) {
+  color: #7A839E;
+  font-weight: 300;
+}
+
+#services p {
+  font-family: "Lato", sans-serif;
+}
+
+#services_title p {
+  font-size: 25px;
+  color: #7E76F9;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #42495B;
+}
+
+#offers_display p {
+  font-size: 15px;
+  color: #42495B;
+}
+
+h4 {
+  color: #42495B;
+  font-size: 28px;
+}
+
+.pricing_card p {
+  color: #7A839E;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.price {
+  color: #1000FF;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#logo_font {
+  font-size: 50px;
+  color: #fff;
+}
+
+#stay_p {
+  font-size: 31px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.button_gradient {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#newsletter h2 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+#newsletter h2 span {
+  font-weight: 600;
+}
+
+input[type=text] {
+  font-size: 12px;
+}
+
+footer {
+  color: #fff;
+}
+
+h5 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+#footer_timebox {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+#biography {
+  margin-top: 100px;
+  display: flex;
+  margin-bottom: 155px;
+  margin-right: 150px;
+}
+#biography div {
+  margin: 0 120px;
+}
+#biography div input[type=button] {
+  margin-top: 42.5px;
+}
+
+#services {
+  padding: 200px;
+}
+
+#services_title {
+  margin-bottom: 125px;
+}
+
+.offers_display {
+  display: flex;
+  margin-bottom: 145px;
+}
+.offers_display article {
+  width: 33%;
+}
+.offers_display article img {
+  margin-left: 33%;
+}
+.offers_display article h3 {
+  margin: 40px 0;
+}
+.offers_display article p {
+  padding-right: 13%;
+}
+.offers_display article div {
+  height: 180px;
+}
+.offers_display article .button_gradient {
+  margin-left: 60%;
+}
+
+#pricing {
+  padding: 50px 160px;
+  text-align: center;
+}
+
+#pricing_container {
+  display: flex;
+}
+
+.pricing_card {
+  margin: 0 40px;
+  margin-bottom: 95px;
+}
+.pricing_card h4 {
+  margin-top: 60px;
+  margin-bottom: 75px;
+}
+.pricing_card p {
+  padding: 0 20%;
+}
+.pricing_card .price {
+  margin: 45px 0;
+}
+.pricing_card .button_gradient {
+  margin-bottom: 55px;
+}
+
+#newsletter {
+  text-align: center;
+  margin-bottom: 100px;
+}
+#newsletter input[type=text] {
+  height: 50px;
+  width: 25%;
+}
+#newsletter input {
+  margin: 0 15px;
+}
+
+#news_title {
+  margin-top: 145px;
+  margin-bottom: 60px;
+}
+#news_title .descript {
+  margin-bottom: 25px;
+}
+
+#newsletter input[type=button], .button_plain, #pricing .button_gradient, #biography .button_gradient {
+  padding: 15px 42px;
+}
+
+.button_gradient {
+  color: #fff;
+  background-image: linear-gradient(to right, #1A129F, #5349E7);
+  border: none;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 10px 18px;
+}
+
+header .button_gradient {
+  padding: 13px 40px;
+}
+
+.button_plain {
+  color: #42495B;
+  border: 1px solid;
+  border-color: #1000FF;
+  border-radius: 50px;
+}
+
+#header_nav {
+  display: flex;
+  padding: 30px 200px;
+  justify-content: space-between;
+}
+
+#logo {
+  display: flex;
+  flex-direction: row;
+}
+#logo p {
+  margin-top: 45px;
+  margin-left: 15px;
+}
+
+nav {
+  margin-top: 40px;
+  justify-content: space-evenly;
+}
+nav a {
+  padding: 0 17.5px;
+}
+
+aside {
+  padding: 0 100px;
+  position: absolute;
+}
+aside #social_media_sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+aside #social_media_sidebar a {
+  padding-top: 40px;
+}
+
+#void_gradient {
+  background-image: linear-gradient(to left, #1A129F, #5349E7);
+  margin-top: 40px;
+  margin-left: 2.5px;
+  height: 30px;
+  width: 3px;
+}
+
+#header_bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 140px;
+  padding-left: 230px;
+}
+#header_bottom #headline {
+  margin-top: 80px;
+}
+#header_bottom #headline h1 {
+  margin-bottom: 20px;
+}
+#header_bottom #headline input[type=button] {
+  margin-top: 20px;
+}
+
+#mouse_icon {
+  margin-left: 50%;
+  position: absolute;
+  margin-top: -15px;
+}
+
+footer {
+  padding: 0 150px;
+  padding-top: 20vh;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#footer_logo {
+  text-align: center;
+}
+#footer_logo p {
+  margin-bottom: 10px;
+}
+
+#footer_social_media_bar {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer_content {
+  display: flex;
+}
+#footer_content h5 {
+  margin-bottom: 15px;
+}
+
+img {
+  object-fit: contain;
+}
+
+/*# sourceMappingURL=style.css.map */

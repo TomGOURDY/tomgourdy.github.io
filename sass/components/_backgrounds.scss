@@ -1,0 +1,41 @@
+@import './../helpers/variables.scss';
+
+%backgroundsizing {
+    background-repeat: no-repeat;
+}
+//
+
+header {
+    background-image: $headerBg;
+    background-position: 100% 0%;
+    @extend %backgroundsizing;
+}
+
+#biography {
+    background-image: $weAreBg;
+    @extend %backgroundsizing;
+}
+
+#services {
+    background-image: $servicesBg;
+    @extend %backgroundsizing;
+}
+
+#pricing {
+    background-color: $lightparm;
+}
+
+.pricing_card {
+    background-color: $white;
+    border-radius: 25px;
+}
+
+.accent {
+    box-shadow: 0px 7px 5px 3px $violetshadow;
+}
+
+footer {
+    background-image: $footerBg;
+    @extend %backgroundsizing;
+    background-size: cover;
+}

@@ -1,0 +1,33 @@
+@import './../helpers/variables.scss';
+
+footer {
+    padding : 0 150px;
+    padding-top: 20vh;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer_logo {
+    text-align: center;
+    p {
+        margin-bottom: 10px;
+    }
+}
+
+#footer_social_media_bar {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer_content {
+ display: flex; 
+ h5 {
+    margin-bottom: 15px;
+ }
+ #footer_linkbox {
+     display: flex;
+     flex-direction: column;
+ }
+}

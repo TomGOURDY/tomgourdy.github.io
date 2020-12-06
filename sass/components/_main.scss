@@ -1,0 +1,98 @@
+@import './../helpers/variables.scss';
+
+#biography {
+    margin-top: 100px;
+    display: flex; 
+    margin-bottom: 155px;
+    margin-right: 150px;
+    div {
+        margin: 0 120px;
+        input[type=button] {
+            margin-top: 42.5px;
+        }
+    }
+}
+
+#services {
+    padding: 200px;
+}
+
+#services_title {
+    margin-bottom: 125px;
+}
+
+.offers_display {
+    display: flex;
+    margin-bottom: 145px;
+    article {
+        width: 33%;
+        img {
+            margin-left: 33%;
+        }
+        h3 {
+            margin: 40px 0;
+        }
+
+        p {
+            padding-right: 13%;
+        }
+        div {
+            height: 180px;
+        }
+        .button_gradient {
+            margin-left: 60%;
+        }
+    }
+}
+
+#pricing {
+    padding: 50px 160px;
+    text-align: center;
+}
+
+#pricing_container {
+    display: flex;
+}
+
+.pricing_card {
+    margin: 0 40px;
+    margin-bottom: 95px;
+    h4 {
+        margin-top: 60px;
+        margin-bottom: 75px;
+    }
+
+    p {
+        padding: 0 20%;
+    }
+
+    .price {
+        margin: 45px 0;
+    }
+
+    .button_gradient {
+        margin-bottom: 55px;
+    }
+}
+
+#newsletter {
+    text-align: center;
+    margin-bottom: 100px;
+    
+    input[type=text] {
+        height: 50px;
+        width: 25%;
+    }
+
+    input {
+        margin: 0 15px;
+    }
+}
+
+#news_title {
+    margin-top: 145px;
+    .descript {
+        margin-bottom: 25px;
+    }
+    margin-bottom: 60px;
+}
